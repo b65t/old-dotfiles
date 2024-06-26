@@ -1,0 +1,31 @@
+#titlebar {
+    visibility: collapse;
+}
+
+#nav-bar {
+   /* background-color: #1E1E1E !important; */
+    }
+    
+    #nav-bar-customization-target > toolbarbutton {
+   /* background-color: #282828 !important; */
+    border-radius: 10px !important;
+    margin: 2px !important;
+    } 
+    
+    #reload-button,
+    #stop-reload-button {
+  /*  background-color: #282828 !important; */
+    border-radius: 10px !important;
+    margin: 2px !important;
+    }
+ 
+    .tabbrowser-tab { 
+   /* background-color: #1E1E1E !important; */
+    border-radius: 8px !important;
+    margin: 1px !important;
+    } 
+ 
+   /* .tabbrowser-tab[selected="false"] {
+    background-color: #282828 !important;
+    } */
+

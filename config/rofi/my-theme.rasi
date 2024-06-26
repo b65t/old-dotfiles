@@ -1,0 +1,76 @@
+* {
+    bg: #1c1f26;
+    hv: #7f849c;
+    txt: #fff;
+    ug: #5981b9;
+    border: #708090;
+
+    background-color: @bg;
+    color: @txt;
+    dark: @bg;
+}
+
+window {
+    width: 520px;
+    location: center;
+    anchor: center;
+    spacing: 0;
+    orientation: horizontal;
+    border: 2;
+    border-radius: 7;
+    border-color: @border;
+    y-offset: -29%;
+}
+
+mainbox {
+    border:                         0;
+    padding:                        0em 0em 0em 0em;
+}
+
+message {
+    padding: 5px;
+}
+
+inputbar {
+    padding: 11px;
+    border: 0px 0px 0px 0px;
+    border-color: @border;
+}
+
+entry,prompt,case-indicator {
+  text-font: inherit;
+  text-color: inherit;
+}
+
+listview {
+    lines: 4;
+}
+
+prompt {
+    margin: 0px 5px 0px 0px;
+} 
+
+
+element {
+    padding: 8px;
+    vertical-align: 0.5;
+    color: @txt;
+    font: inherit;
+    border:                         1;
+    padding:                        0.4em 0em 0.4em 0em;
+    border-radius:                  6;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element selected.normal {
+   background-color: @hv;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
+}

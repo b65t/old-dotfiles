@@ -1,0 +1,10 @@
+configuration {
+    drun-display-format: "{icon} {name}";
+    show-icons: false;
+    icon-theme: "Papirus";
+    display-drun: "";
+}
+
+@theme "~/.local/share/rofi/themes/my-theme.rasi"
+
+
